@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+
+
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizMaster - Test Your Knowledge</title>
+    <meta name="description" content="Interactive quiz app with real-time questions from Open Trivia Database. Test your knowledge across multiple categories and get instant feedback." />
+    <meta name="author" content="QuizMaster" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Quiz App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <meta property="og:title" content="QuizMaster - Interactive Quiz Application" />
+    <meta property="og:description" content="Challenge yourself with quizzes across various topics. Get instant scoring and detailed feedback on your performance." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-<body>
-    <div class="quiz-container">
-        <h1>Quiz Application</h1>
-        <div id="question-container">
-            <p id="question">Loading...</p>
-            <div id="answer-buttons" class="btn-container"></div>
-        </div>
-        <button id="next-btn" class="btn">Next</button>
-        <p id="timer">Time Left: <span id="time-left">30</span> sec</p>
-        <p id="score">Score: <span id="score-value">0</span></p>
-        <button id="restart-btn" class="btn">Restart</button>
-    </div>
-    <script src="script.js"></script>
-</body>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
